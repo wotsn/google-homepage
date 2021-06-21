@@ -1,59 +1,53 @@
 <!DOCTYPE html>
-<html>
-        
-<head><link href="main.css" rel="stylesheet" type="text/css">
-
-<title>Google Homepage</title>
+<html>       
+    <head>
+        <link href="main.css" rel="stylesheet" type="text/css">
+    <title>Google Homepage</title>
 </head>
 
-
-
 <body>
+   <header>
+       <nav>
+           <ul id="nav-bar">
+            <li class="nav-links" id="gmail"><a href="#">Gmail</a></li>
+            <li class="nav-links"><a href="#">Images</a></li>
+            <li id="sign in"><a href="#">Sign in</a></li>
+        </ul>
+       </nav>
+    </header>
 
-
-
-<div>
-<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" srcset="">
+    <!--Google Image-->
+    <div class="google">
+<a href="#" id="google-logo"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt= "google logo"></a>
 </div>
 
-<div>
-<input type="text">
-<button type="submit">Google Search</button>
-<button type="submit">I'm Feeling Lucky</button>
+<!--Search Bar-->
+<div class="form">
+<form>
+    <label for="form-search"></label>
+    <input type="text" id="form-search">
+</form>
 </div>
 
-<header>
-<nav>
-<ul>
-    <Li><a href="#About" class="black-text">About</a></Li>
-    <Li><a href="#Store" class="black-text">Store</a></Li>
-    <Li><a href="#Gmail" class="black-text">Gmail</a></Li>
-    <Li><a href="#Images" class="black-text">Images</a></Li>
-</ul>
-</nav>
-</header>
+<!--Buttons-->
+<div class="buttons">
+    <input type="submit" value="Google Search" id="google_search">
+    <input type="submit" value="Im Feeling Lucky" id="im_feeling_lucky">
+</div>
 
-<footer></footer>
-    <nav>
-<ul>
-    <Li><a href="#Advertising" class="grey-text">Advertising</a></Li>
-    <Li><a href="#Business" class="grey-text">Business</a></Li>
-    <Li><a href="#How Search works" class="grey-text">How Search works</a></Li>
-    <Li><a href="#Carbon neutral since 2007" class="grey-text">Carbon neutral since 2007</a></Li>
-    <Li><a href="#Privacy" class="grey-text">Privacy</a></Li>
-    <Li><a href="#Terms" class="grey-text">Terms</a></Li>
-    <Li><a href="#Settings" class="grey-text">Settings</a></Li>
+<!--Footer-->
+<footer>
+    <ul class="footer-left">
+<li><a href="#">Advertising</a></li>
+<li><a href="#">Business</a></li>
+<li><a href="#">How Search Works</a></li>
 </ul>
-</nav>
+<ul class="footer-right">
+    <li><a href="#">Privacy</a></li>
+    <li><a href="#">Terms</a></li>
+    <li><a href="#">Settings</a></li>
+    </ul>
 </footer>
-
-
-
-
-
-
-    
 </body>
 
-
-</html>
+  </html>
