@@ -26,10 +26,10 @@ body {
   }
   
   #nav_bar #sign_in {
-    background: #4887ef;
+    background: #2b7de9;
     font-size: 14px; 
     margin-right: 25px;
-    padding: 10px 20px;
+    padding: 10px 25px;
     border-radius: 3px; 
     
   }
@@ -99,6 +99,7 @@ body {
   font-size: 14px;
   background-color: #f8f9fa;
   border: 1px solid #f8f9fa;
+  border-radius: 3px;
   }
 
   #im_feeling_lucky {
@@ -108,6 +109,7 @@ body {
     font-size: 14px;
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
+    border-radius: 3px;
   }
 
   #google_search:hover {
